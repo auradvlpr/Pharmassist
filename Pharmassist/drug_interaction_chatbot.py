@@ -44,8 +44,8 @@ def extract_side_effects(text):
 # Main chatbot function
 def chatbot():
     """Main chatbot function to interact with users."""
-    api_key = "AIzaSyBDeZsinAXgroG8zO8cvTfFSCHrWzSb3Xk"  # Your Google API Key
-    cx = "d26957b980f1247ccD"  # Your Google Custom Search Engine ID
+    api_key = ""  # Your Google API Key
+    cx = ""  # Your Google Custom Search Engine ID
 
     while True:
         user_input = input("Enter drug names (comma separated) or 'exit': ")
